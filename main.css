@@ -56,6 +56,11 @@ header > img {
   max-width: 330px;
 }
 
+.header-text p {
+  margin-top: 15px;
+  color: #134b91;
+}
+
 main {
   max-width: 1000px;
   padding: 20px;
@@ -72,7 +77,8 @@ main {
   padding: 20px;
   border-radius: 10px;
   background-color: #fff;
-  border: solid 1px #252525;
+  /* border: solid 1px #252525; */
+  box-shadow: 0 0px 2px hsla(0, 0%, 15%, 0.315);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
