@@ -61,9 +61,8 @@ main {
   padding: 20px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: baseline;
-  gap: 10px;
+  justify-content: start;
+  gap: 18px;
 }
 
 .card {
@@ -74,7 +73,6 @@ main {
   border-radius: 10px;
   background-color: #fff;
   border: solid 1px #252525;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 8px 10px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -102,4 +100,10 @@ footer {
 footer > small {
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 980px) {
+  main {
+    justify-content: center;
+  }
 }
