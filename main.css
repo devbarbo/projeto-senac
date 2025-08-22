@@ -95,6 +95,10 @@ main {
   margin-bottom: 15px;
 }
 
+.card small {
+  margin-top: 10px;
+}
+
 footer {
   background-color: var(--azul);
   width: 100%;
@@ -105,7 +109,6 @@ footer {
   flex-flow: column;
   justify-content: end;
   align-items: center;
-  background-image: url(img/img-card.jpg);
 }
 
 footer>small {
