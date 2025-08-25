@@ -95,6 +95,7 @@ main {
 .card {
   display: flex;
   flex-flow: column;
+  min-width: 0;
   max-width: 300px;
   padding: 20px;
   border-radius: 10px;
@@ -117,6 +118,7 @@ main {
 .card small {
   margin-top: 10px;
   overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 footer {
