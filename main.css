@@ -117,8 +117,8 @@ main {
 
 .card small {
   margin-top: 10px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  /* overflow-wrap: break-word;
+  word-wrap: break-word; */
 }
 
 footer {
