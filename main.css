@@ -76,6 +76,11 @@ header > img {
   margin-top: 15px;
 }
 
+.header-text span {
+  font-weight: bold;
+  color: #134b91;
+}
+
 main {
   max-width: 1000px;
   padding: 20px;
